@@ -6,14 +6,25 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<div class = "timerText">
-<div>
-<h1 id ="timerText">0: 0</h1>
-<div>
-<button id = "timerSubmitButton"class = "btn btn-primary">Start</button>
-<button id = "timerStopButton"class = "btn btn-primary">Stop</button>
+<nav class="navbar navbar-expand headerbar bg-primary fixed-top" id = "headerBar">
+<ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="\index.php">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Workouts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Results</a>
+      </li>
+    </ul>
+</nav>
+<div class = "center">
+    <h1>Workouts</h1>
+    <button class = "btn btn-primary">Workout</button>
+    <button class = "btn btn-primary">Workout</button>
+    <button class = "btn btn-primary">Workout</button>
+    <button class = "btn btn-primary">Workout</button>
+<button id = "addWorkoutButton"class ="btn btn-success">Add Workout</button>
 </div>
-</div>
-</div>
-
-</html> 
+</html>

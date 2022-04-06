@@ -1,13 +1,16 @@
-.timerText{
-align-items: center;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-min-height: 100vh;
-position: relative;
-flex-direction: column;
-}
-.buttonArea{
+.center{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
     position: relative;
+}
+.navbar-nav li a{
+    color: white;
+}
+.btn{
+    margin-bottom: 2%;
 }
